@@ -2,8 +2,8 @@
 #include <cctype>
 
 using namespace std;
-
-class componente {  //Se crea una clase componente 
+//Se crea solo una clase componente debido a que solo se necesita conocer el estado de un componente (si tiene agua, o esta encendida en caso de la bomba, y en todos se recibe como respuesta: 'S' o 'N')
+class componente {  
 private:
     char estado; //La clase tiene como atributo el estado con una variable de tipo char
 public:
