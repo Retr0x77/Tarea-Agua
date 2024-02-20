@@ -21,7 +21,7 @@ public:
     }
 };
 
-char Entrada(string mensaje){ //se crea una funcion para pedir los datos al usuario, la funcion recive el mensaje
+char Entrada(string mensaje){ //se crea una funcion para pedir los datos al usuario, la funcion recibe el mensaje
 	string entrada;  //creamos una variable de tipo string para guardar la entrada (para evitar un error en el programa si el usuario ingresa mas de un caracter)
 	char caracter;   //creamos la variable caracter para guardar lo ingresado
     do {
